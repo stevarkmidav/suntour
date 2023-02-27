@@ -1,0 +1,145 @@
+.promo {
+    margin-top: 24px;
+    .screen {
+        position: relative;
+        &__bg {
+            max-width: 100%;
+            width: 1040px;
+            height: auto;
+        }
+        &__wrapper {
+            position: absolute;
+            top: 270px;
+            left: 32px;
+            width: 250px;
+            height: 250px;
+            background: rgba(255, 242, 0, 0.7);
+            border-radius: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            font-family: 'Trebuchet MS';
+            .location {
+                &__place {
+                    font-weight: 700;
+                    font-size: 25px;
+                    line-height: 29px;
+                    text-align: center;
+                    span {
+                        font-size: 14px;
+                        line-height: 16px;
+                        text-transform: uppercase;
+                    }
+                }
+                &__code {
+                    margin-top: 5px;
+                    background: #000000;
+                    padding: 1px 4px 2px 5px;
+                    font-size: 24px;
+                    line-height: 28px;
+                    text-transform: uppercase;
+                    color: #FFFFFF;
+                }
+            }
+        }
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 23px;
+        .hotel {
+            max-width: 563px;
+            &__descr {
+                display: flex;
+                justify-content: space-between;
+            }
+            &__name {
+                font-family: 'Trebuchet MS';
+                font-weight: 700;
+                font-size: 35px;
+                line-height: 120%;
+                border-bottom: 1px solid rgba(0, 0, 0, 0.25); 
+                margin-right: 20px;
+            }
+            &__stars {
+                margin: auto 0;
+                width: 146px;
+                &-items {
+                    display: flex;
+                    flex-direction: row;
+                    list-style-type: none;
+                    align-items: center;
+                    justify-content: space-between;
+                }
+            }
+            &__price {
+                margin-left: 20px;
+                font-family: 'Trebuchet MS';
+                font-weight: 700;
+                font-size: 35px;
+                line-height: 125%;
+            }
+            &__ratings {
+                margin-top: 31px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                max-width: 547px;
+                &-feedback {
+                    font-family: 'Arial';
+                    font-size: 14px;
+                    line-height: 16px;
+                    color: #000000;
+                    span {
+                        font-weight: 700;
+                    }
+                }
+                &-count {
+                    width: 52px;
+                    height: 52px;
+                    background: #008BAA;
+                    font-family: 'Trebuchet MS';
+                    font-weight: 700;
+                    font-size: 24px;
+                    text-align: center;
+                    color: #FFFFFF;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                &-item {
+                    font-family: 'Arial';
+                    font-size: 12px;
+                    line-height: 14px;
+                    letter-spacing: 0.05em;
+                    text-transform: uppercase;
+                    span {
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 18px;
+                        line-height: 21px;
+                    }
+                }
+            }
+        }
+        .sunydays {
+            position: relative;
+            &__wrapper {
+                width: 144px;
+                position: absolute;
+                right: 112px;
+                top: -20px;
+                font-family: 'Arial';
+                font-size: 30px;
+                line-height: 31px;
+                color: #000000;
+                    span {
+                        font-family: 'Trebuchet MS';
+                        font-size: 88px;
+                        color: #777777;
+                    }
+            }
+        }
+    }
+}

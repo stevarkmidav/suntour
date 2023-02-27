@@ -1,0 +1,56 @@
+.activity {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 48px;
+    &__about {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 24px;
+    }
+    &__link {
+        text-decoration: none;
+    }
+    &__name {
+        font-family: 'Trebuchet MS';
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 125%;
+        color: #000000;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+        transition: all .3s;
+        &:hover {
+            color: #cb0000;
+            border-bottom: 1px solid rgba(203, 0, 0, 0.25);
+        }
+    }
+    &__subheader {
+        font-family: 'Arial';
+        font-size: 14px;
+        line-height: 19px;
+        margin-top: 10px;
+    }
+    &__price {
+        font-family: 'Trebuchet MS';
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 130%;
+        span {
+            display: block;
+            text-align: right;
+            font-size: 20px;
+            line-height: 23px;
+            color: #777777;
+            position: relative;
+            &::before {
+                content: "";
+                display: block;
+                position: absolute;
+                top: 11px;
+                left: 26px;
+                width: 38px;
+                height: 1px;
+                background-color: #cb0000;
+            }
+        }
+    }
+}

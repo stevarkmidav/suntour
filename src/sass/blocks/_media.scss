@@ -1,0 +1,443 @@
+@media (max-width: 1039px) {
+    .container {
+        max-width: 850px;
+    }
+    .header {
+        &__wrapper {
+            padding: 0 15px;
+        }
+    }
+    .promo {
+        .screen {
+            width: 95%;
+            height: auto;
+            margin: 0 auto;
+            &__wrapper {
+                scale: .8;
+                top: 170px;
+                left: 10px;
+            }
+        }
+        &__wrapper {
+            padding: 0 20px;
+            .hotel {
+                &__name {
+                    font-size: 28px;
+                }
+                &__price {
+                    font-size: 28px;
+                }
+            }
+            .sunydays {
+                right: -60px;
+                &__wrapper {
+                    font-size: 24px;
+                    span {
+                        font-size: 60px;
+                    }
+                }
+            }
+            
+        }
+    }
+    .activity {
+        margin-top: 70px;
+        flex-wrap: wrap;
+        justify-content: center;
+        &__about {
+            margin: 10px 0 40px 0;
+        }
+        &__name {
+            font-size: 30px;
+        }
+    }
+    .discount {
+        margin: 30px 20px 0 20px;
+
+        &__about {
+            margin: 28px 22px;
+        }
+        &__price {
+            font-size: 20px;
+        }
+        &__header {
+            font-size: 16px;
+        }
+        &__btn {
+            width: 180px;
+            height: 40px;
+        }
+    }
+    .info {
+        padding: 0 20px;
+        &__wrapper { 
+            max-width: 600px;    
+        }
+        &__header {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+        .italic {
+            height: auto;
+            margin-right: 10px;
+        }
+        &__health {
+            &-point {
+                font-size: 80px;
+            }
+            &-header {
+                font-size: 22px;
+            }
+            &-descr {
+                font-size: 16px;
+                line-height: 20px;
+            }
+        }
+    }
+    .footer {
+        max-width: 800px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+
+@media (max-width: 850px) {
+    .container {
+        max-width: 700px;
+    }
+    .header {
+        &__logo {
+            display: block;
+        }
+        &__phone {
+            margin: auto;
+            display: block;
+        }
+    }
+    .promo {
+        .screen {
+            &__wrapper {
+                scale: .6;
+                top: 125px;
+                left: -20px;
+            }
+        }
+        &__wrapper {
+            margin-top: 10px;
+            display: block;
+            .sunydays {
+                display: none;
+            }
+        }
+    }
+    .discount {
+        &__about {
+            margin: 16px 14px;
+        }
+        &__price {
+            font-size: 16px;
+        }
+        &__btn {
+            width: 140px;
+            height: 40px;
+        }
+        &__details {
+            height: 40px;
+        }
+    }
+    .info {
+        display: block;
+        &__wrapper {
+            max-width: 100%;
+        }
+        &__health {
+            display: none;
+        }
+    }
+    .footer {
+        max-width: 640px;
+    }
+}
+
+
+
+@media (max-width: 700px) {
+    .container {
+        max-width: 500px;
+    }
+    .header {
+        &__logo {
+            &-icon {
+                width: 65%;
+                height: auto;
+            }
+            &-descr {
+                font-size: 14px;
+                margin-left: 0;
+                padding-top: 5px;
+            }
+        }
+        &__phone {
+            &-number {
+                font-size: 20px;
+            }
+            &-descr {
+                font-size: 14px;
+            }
+        }
+        &__social {
+            &-icon {
+                &:hover {
+                    scale: none;
+                }
+            }
+        }
+    }
+    .promo {
+        .screen {
+            &__wrapper {
+                scale: .5;
+                top: 50px;
+                left: -45px;
+            }
+        }
+        &__wrapper {
+            display: block;
+        }
+        .hotel {
+            &__name {
+                font-size: 24px;
+            }
+            &__stars {
+                width: 120px;
+                &-img {
+                    width: 90%;
+                    height: auto;
+                }
+            }
+            &__price {
+                font-size: 24px;
+            }
+            &__ratings {
+                margin-top: 20px;
+                &-count {
+                    width: 40px;
+                    height: 40px;
+                    font-size: 18px;
+                }
+                &-item {
+                    font-size: 11px;
+                    span {
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+    }
+    .activity {
+        &__img {
+            margin: 0 auto;
+            width: 450px;
+        }
+        &__name {
+            font-size: 26px;
+            &:hover {
+                color: #000000;
+                border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+            }
+        }
+        &__price {
+            font-size: 32px;
+        }
+    }
+    .discount {
+        &__about {
+            flex-direction: column;
+        }
+        &__price {
+            font-size: 28px;
+        }
+        &__descr {
+            text-align: center;
+        }
+        &__promocode {
+            margin-top: 10px;
+            font-size: 18px;
+        }
+        &__header {
+            margin-top: 10px;
+            font-size: 24px;
+        }
+        &__descr {
+            margin-top: 10px;
+            font-size: 16px;
+        }
+        &__btn {
+            margin-top: 15px;
+            width: 224px;
+            height: 47px;
+            font-size: 16px;
+        }
+        &__details {
+            height: 47px;
+        }
+    }
+    .info {
+        &__header {
+            font-size: 28px;
+        }
+        &__table {
+            &-wrapper {
+                margin: 0;
+                padding: 0;
+            }
+        }
+        &__conclusion {
+            &__item {
+                font-size: 12px;
+                margin-left: 20px;
+                &::before {
+                    left: -3%;
+                }
+            }
+        }
+    }
+    .footer {
+        max-width: 460px;
+        &__descr {
+            font-size: 11px;
+        }
+        &__social {
+            &-icon {
+                &:hover {
+                    scale: 1;
+                }
+            }
+        }
+    }
+}
+
+
+
+@media (max-width: 500px) {
+    .container {
+        max-width: 350px;
+    }
+    .header {
+        min-height: 70px;
+        &__logo {
+            &-icon {
+                width: 70%;
+                height: auto;
+            }
+            &-descr {
+                display: none;
+            }
+        }
+        &__phone {
+            &-number {
+                display: none;
+            }
+            &-descr {
+                display: none;
+            }
+        }
+    }
+    .promo {
+        .screen {
+            &__wrapper {
+                scale: .4;
+                top: -10px;
+                left: -60px;
+            }
+        }
+        &__wrapper {
+            padding: 0 10px;
+        }
+        .hotel {
+            &__descr {
+                flex-wrap: wrap;
+            }
+            &__name {
+                font-size: 22px;
+            }
+            &__price {
+                margin: 10px 0 0 0;
+            }
+            &__ratings {
+                margin-top: 10px;
+                flex-wrap: wrap;
+                justify-content: flex-start;
+                &-feedback {
+                    font-size: 16px;
+                    margin-top: 10px;
+                }
+                &-count {
+                    margin: 10px 10px 0 10px;
+                }
+                &-item {
+                    font-size: 13px;
+                    margin-right: 10px;
+                    margin-top: 10px;
+                    
+                }
+            }
+        }
+    }
+    .activity {
+        &__img {
+            width: 330px;
+        }
+        &__name {
+            font-size: 22px;
+        }
+        &__price {
+            font-size: 24px;
+            span {
+                &::before {
+                left: 7px;
+                }
+            }
+        }
+        &__about {
+            margin: 5px 0 30px 0;
+        }
+    }
+    .discount {
+        &__price {
+            font-size: px;
+        }
+    }
+    .info {
+        margin-top: 40px;
+        .italic {
+            margin-left: 0;
+        }
+        &__header {
+            &-wrapper {
+                padding: 10px 5px;
+            }
+        }
+        &__table {
+            &-item {
+                padding: 10px 5px;
+                margin: auto 0;
+            }
+        }
+    }
+    .footer {
+        flex-direction: column;
+        max-width: 300px;
+        &__descr {
+            order: 2;
+            font-size: 12px;
+            margin-top: 10px;
+
+        }
+        &__social {
+            order: 1;
+            width: 100px;
+        }
+    }
+}

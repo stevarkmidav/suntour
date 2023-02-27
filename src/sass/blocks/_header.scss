@@ -1,0 +1,53 @@
+.header {
+    width: 100%;
+    min-height: 104px;
+    background: #008BAA; 
+    display: flex;
+    align-items: center;
+    font-family: 'Arial';
+    color: #FFFFFF;
+    &__wrapper {
+        width: 1040px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+    }   
+    &__logo {
+        display: flex;
+        &-descr {
+            margin-left: 22px;
+            font-size: 16px;
+            line-height: 18px;
+            display: flex;
+            align-items: end;
+        }
+    }
+    &__phone {
+        display: flex;
+        align-items: center;
+        &-number {
+            font-size: 30px;
+            text-decoration: none;
+            color: #FFFFFF;
+            
+        }
+        &-descr {
+            margin-left: 8px;
+            font-size: 16px;
+            line-height: 18px;
+        }
+    }
+    &__social {
+        display: flex;
+        align-items: center;
+        width: 80px;
+        justify-content: space-between;
+        margin-right: 4px;
+        &-icon {
+            transition: all .3s;
+            &:hover {
+                scale: 1.2;
+            }
+        }
+    }
+}

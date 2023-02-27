@@ -1,0 +1,69 @@
+.discount {
+    margin-top: 48px;
+    border: 1px solid #E0E0E0;
+    border-radius: 6px;
+    &__about {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 30px 24px;
+    }
+    &__price {
+        font-family: 'Arial';
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 120%;
+        text-align: center;
+        color: #008BAA;
+    }
+    &__promocode {
+        font-family: 'Arial';
+        font-size: 14px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: #008BAA;
+    }
+    &__header {
+        margin-top: 4px;
+        font-family: 'Arial';
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 130%;
+    }
+    &__descr {
+        margin-top: 8px;
+        font-family: 'Arial';
+        font-size: 14px;
+        line-height: 19px;
+    }
+    &__btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-style: none;
+        color: #FFFFFF;
+        width: 224px;
+        height: 47px;
+        background: linear-gradient(180deg, #00AAAA 0%, #008BAA 100%);
+        border-radius: 24px;
+        cursor: pointer;
+        transition: all .3s;
+        &:hover {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+        }
+    }
+    &__details {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 47px;
+        background: #F7F7F7;
+        font-family: 'Arial';
+        font-size: 13px;
+        color: #777777;
+        cursor: pointer;
+        &-arrow {
+            margin-left: 8px;
+        }
+    }
+}
